@@ -96,7 +96,7 @@ def main(url):
         elif status == 200:
             responsesoup = bs4.BeautifulSoup(response.text)
             new_pagetitle = responsesoup.title
-            badlogin = '\tfailed' in page or 'incorrect' in page
+            badlogin = 'failed' in page or 'incorrect' in page
             if badlogin:
                 print('\t\'' + evil + '\' seems to have been foiled – login failed')
                 print('\tcontinuing...')
