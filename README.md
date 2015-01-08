@@ -1,5 +1,5 @@
 # sqlpy
-a super simple script to blind-fuzz / sql inject your way into a website pass in a URL that points to a page with a login form and optionally pass in a session cookie in the form 'cookiename=value'
+a super simple script to blind-fuzz / sql inject your way into a website pass in a URL that points to a page with a login form
 example: `python3.4 ./sqlpy.py ringzer0team.com/challenges/1`
 
 ###to-do:
